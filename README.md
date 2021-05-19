@@ -1,3 +1,3 @@
 # assets
 ### Assetss
-- Photo : https://raw.githubusercontent.com/mhmdashrof/assets.me/master/main_profile.jpg
+- Photo : https://raw.githubusercontent.com/mhmdashrof/assets.me/master/assets/main_profile.jpg
