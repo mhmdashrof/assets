@@ -1,14 +1,2 @@
-# in your action.yml
-jobs:
-  my-workflow-job:
-    steps:
-    - name: https://github.com/mhmdashrof/assets/blob/main/main_profile.jpg
-      uses: a-previous-action
-    - name: convert-to-raw-url
-      uses: actioncloud/github-raw-url@v1
-      with:
-        github-url: ${{https://github.com/mhmdashrof/assets/blob/main/main_profile.jpg}}
-    - name: another-step
-      uses: another-action
-      with:
-        github-raw-url: ${{ convert-to-raw-url.outputs.raw-url }}
+- name: https://github.com/mhmdashrof/assets/blob/main/main_profile.jpg
+  uses: ActionCloud/github-raw-url@v1
